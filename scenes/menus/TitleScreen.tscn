@@ -1,0 +1,63 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/TitleScreen.gd" id="1_title"]
+
+[node name="TitleScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_title")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.08, 0.1, 0.13, 1)
+
+[node name="Center" type="CenterContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBox" type="VBoxContainer" parent="Center"]
+layout_mode = 2
+theme_override_constants/separation = 24
+
+[node name="Title" type="Label" parent="Center/VBox"]
+layout_mode = 2
+text = "City of Vail"
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 72
+
+[node name="Subtitle" type="Label" parent="Center/VBox"]
+layout_mode = 2
+text = "A Card Game"
+horizontal_alignment = 1
+theme_override_colors/font_color = Color(0.65, 0.7, 0.78, 1)
+theme_override_font_sizes/font_size = 20
+
+[node name="Spacer" type="Control" parent="Center/VBox"]
+custom_minimum_size = Vector2(0, 24)
+layout_mode = 2
+
+[node name="StartButton" type="Button" parent="Center/VBox"]
+custom_minimum_size = Vector2(260, 56)
+layout_mode = 2
+text = "開始遊戲"
+
+[node name="QuitButton" type="Button" parent="Center/VBox"]
+custom_minimum_size = Vector2(260, 56)
+layout_mode = 2
+text = "離開"
+
+[connection signal="pressed" from="Center/VBox/StartButton" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="Center/VBox/QuitButton" to="." method="_on_quit_pressed"]
