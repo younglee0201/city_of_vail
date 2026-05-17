@@ -1,6 +1,9 @@
-[gd_scene load_steps=2 format=3]
+[gd_scene format=3 uid="uid://bcbe1w1vaca7v"]
 
-[ext_resource type="Script" path="res://scripts/ui/Enemy.gd" id="1_enemy"]
+[ext_resource type="Script" uid="uid://ds3qpcbs8x6yg" path="res://scripts/ui/Enemy.gd" id="1_enemy"]
 
-[node name="Enemy" type="Node2D"]
+[node name="Enemy" type="Node2D" unique_id=1896900613]
 script = ExtResource("1_enemy")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2054752247]
+offset = Vector2(0, -20)

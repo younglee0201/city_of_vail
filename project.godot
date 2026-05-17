@@ -15,12 +15,20 @@ run/main_scene="res://scenes/menus/TitleScreen.tscn"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+ContentRegistry="*res://scripts/data/content_registry.gd"
+BuildingData="*res://scripts/data/building_data.gd"
+
+[debug]
+
+gdscript/warnings/integer_division=0
+
 [display]
 
 window/size/viewport_width=1600
 window/size/viewport_height=900
 window/stretch/mode="canvas_items"
-window/stretch/aspect="keep"
 
 [physics]
 

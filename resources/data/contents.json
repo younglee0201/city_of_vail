@@ -1,0 +1,93 @@
+[
+  {
+    "id": "int",
+    "key": "string",
+    "en": "string",
+    "tc": "string"
+  },
+  {
+    "id": "1",
+    "key": "building_slum_name",
+    "en": "Slum"
+  },
+  {
+    "id": "2",
+    "key": "building_row_house_name",
+    "en": "Row House"
+  },
+  {
+    "id": "3",
+    "key": "building_apartment_name",
+    "en": "Apartment"
+  },
+  {
+    "id": "4",
+    "key": "building_townhomes_name",
+    "en": "Townhomes"
+  },
+  {
+    "id": "5",
+    "key": "building_mansion_name",
+    "en": "Mansion"
+  },
+  {
+    "id": "6",
+    "key": "building_villa_name",
+    "en": "Villa"
+  },
+  {
+    "id": "7",
+    "key": "building_shop_name",
+    "en": "Shop"
+  },
+  {
+    "id": "8",
+    "key": "building_bar_name",
+    "en": "Bar"
+  },
+  {
+    "id": "9",
+    "key": "building_shack_name",
+    "en": "Shack"
+  },
+  {
+    "id": "10",
+    "key": "building_back_ally_name",
+    "en": "Back_Ally"
+  },
+  {
+    "id": "11",
+    "key": "building_factory_name",
+    "en": "Factory"
+  },
+  {
+    "id": "12",
+    "key": "building_bank_name",
+    "en": "Bank"
+  },
+  {
+    "id": "13",
+    "key": "building_casino_name",
+    "en": "Casino"
+  },
+  {
+    "id": "14",
+    "key": "building_hospital_name",
+    "en": "Hospital"
+  },
+  {
+    "id": "15",
+    "key": "building_theather_name",
+    "en": "Theather"
+  },
+  {
+    "id": "16",
+    "key": "building_dance_hall_name",
+    "en": "Dance_Hall"
+  },
+  {
+    "id": "17",
+    "key": "building_church_name",
+    "en": "Church"
+  }
+]

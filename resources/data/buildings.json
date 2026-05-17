@@ -1,0 +1,135 @@
+[
+  {
+    "id": "int",
+    "key": "string",
+    "name": "string",
+    "icon": "string",
+    "size": "int",
+    "cost": "int",
+    "cooldown": "int",
+    "coin gain $": "int",
+    "effect": "string",
+    "hp": "int",
+    "Tier": "int",
+    "Description": "string"
+  },
+  {
+    "id": "1",
+    "key": "building_slum",
+    "name": "building_slum_name",
+    "icon": "slum",
+    "Tier": "0"
+  },
+  {
+    "id": "2",
+    "key": "building_row_house",
+    "name": "building_row_house_name",
+    "icon": "row_house",
+    "Tier": "1"
+  },
+  {
+    "id": "3",
+    "key": "building_apartment",
+    "name": "building_apartment_name",
+    "icon": "apartment",
+    "Tier": "2"
+  },
+  {
+    "id": "4",
+    "key": "building_townhomes",
+    "name": "building_townhomes_name",
+    "icon": "townhomes",
+    "Tier": "2"
+  },
+  {
+    "id": "5",
+    "key": "building_mansion",
+    "name": "building_mansion_name",
+    "icon": "mansion",
+    "Tier": "0"
+  },
+  {
+    "id": "6",
+    "key": "building_villa",
+    "name": "building_villa_name",
+    "icon": "villa",
+    "Tier": "0"
+  },
+  {
+    "id": "7",
+    "key": "building_shop",
+    "name": "building_shop_name",
+    "icon": "shop",
+    "Tier": "0"
+  },
+  {
+    "id": "8",
+    "key": "building_bar",
+    "name": "building_bar_name",
+    "icon": "bar",
+    "Tier": "0"
+  },
+  {
+    "id": "9",
+    "key": "building_shack",
+    "name": "building_shack_name",
+    "icon": "shack",
+    "Tier": "0"
+  },
+  {
+    "id": "10",
+    "key": "building_back_ally",
+    "name": "building_back_ally_name",
+    "icon": "back_ally",
+    "Tier": "0"
+  },
+  {
+    "id": "11",
+    "key": "building_factory",
+    "name": "building_factory_name",
+    "icon": "factory",
+    "Tier": "0"
+  },
+  {
+    "id": "12",
+    "key": "building_bank",
+    "name": "building_bank_name",
+    "icon": "bank",
+    "Tier": "0"
+  },
+  {
+    "id": "13",
+    "key": "building_casino",
+    "name": "building_casino_name",
+    "icon": "casino",
+    "Tier": "0"
+  },
+  {
+    "id": "14",
+    "key": "building_hospital",
+    "name": "building_hospital_name",
+    "icon": "hospital",
+    "Tier": "0"
+  },
+  {
+    "id": "15",
+    "key": "building_theather",
+    "name": "building_theather_name",
+    "icon": "theather",
+    "Tier": "0"
+  },
+  {
+    "id": "16",
+    "key": "building_dance_hall",
+    "name": "building_dance_hall_name",
+    "icon": "dance_hall",
+    "Tier": "0"
+  },
+  {
+    "id": "17",
+    "key": "building_church",
+    "name": "building_church_name",
+    "icon": "church",
+    "Tier": "0"
+  }
+]

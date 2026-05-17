@@ -1,8 +1,8 @@
-[gd_scene load_steps=2 format=3]
+[gd_scene format=3 uid="uid://ceob23s2tw5q"]
 
-[ext_resource type="Script" path="res://scripts/ui/TitleScreen.gd" id="1_title"]
+[ext_resource type="Script" uid="uid://d1wgb0mhpf5vo" path="res://scripts/ui/TitleScreen.gd" id="1_title"]
 
-[node name="TitleScreen" type="Control"]
+[node name="TitleScreen" type="Control" unique_id=1068993998]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -11,7 +11,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_title")
 
-[node name="Background" type="ColorRect" parent="."]
+[node name="Background" type="ColorRect" parent="." unique_id=1854597696]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -20,7 +20,7 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.08, 0.1, 0.13, 1)
 
-[node name="Center" type="CenterContainer" parent="."]
+[node name="Center" type="CenterContainer" parent="." unique_id=1100311119]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -28,33 +28,33 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="VBox" type="VBoxContainer" parent="Center"]
+[node name="VBox" type="VBoxContainer" parent="Center" unique_id=332515236]
 layout_mode = 2
 theme_override_constants/separation = 24
 
-[node name="Title" type="Label" parent="Center/VBox"]
+[node name="Title" type="Label" parent="Center/VBox" unique_id=1569273137]
 layout_mode = 2
+theme_override_font_sizes/font_size = 72
 text = "City of Vail"
 horizontal_alignment = 1
-theme_override_font_sizes/font_size = 72
 
-[node name="Subtitle" type="Label" parent="Center/VBox"]
+[node name="Subtitle" type="Label" parent="Center/VBox" unique_id=943642664]
 layout_mode = 2
-text = "A Card Game"
-horizontal_alignment = 1
 theme_override_colors/font_color = Color(0.65, 0.7, 0.78, 1)
 theme_override_font_sizes/font_size = 20
+text = "A Card Game"
+horizontal_alignment = 1
 
-[node name="Spacer" type="Control" parent="Center/VBox"]
+[node name="Spacer" type="Control" parent="Center/VBox" unique_id=2120549819]
 custom_minimum_size = Vector2(0, 24)
 layout_mode = 2
 
-[node name="StartButton" type="Button" parent="Center/VBox"]
+[node name="StartButton" type="Button" parent="Center/VBox" unique_id=706099895]
 custom_minimum_size = Vector2(260, 56)
 layout_mode = 2
 text = "開始遊戲"
 
-[node name="QuitButton" type="Button" parent="Center/VBox"]
+[node name="QuitButton" type="Button" parent="Center/VBox" unique_id=146337780]
 custom_minimum_size = Vector2(260, 56)
 layout_mode = 2
 text = "離開"
